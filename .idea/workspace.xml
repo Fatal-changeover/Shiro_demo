@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a47ea0b-696a-41a3-9a40-dc508dded821" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/realm/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/applicationContext-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/Config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/ShiroSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/filter/RolesOrAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/realm/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/static/401.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/test/java/com/example/shiro_springboot/ShiroSpringBootApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a47ea0b-696a-41a3-9a40-dc508dded821" name="Changes" comment="Second-SpringBoot整合shiro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Shiro_SpringBoot" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="96668489-9301-45d7-9bb1-3454e57819e0" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -233,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714539013779</updated>
       <workItem from="1714539015183" duration="9148000" />
-      <workItem from="1714571680867" duration="9330000" />
+      <workItem from="1714571680867" duration="9656000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1714571698695</created>
@@ -256,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714572103029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second-SpringBoot整合shiro">
+      <created>1714635275997</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714635275997</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Second-SpringBoot整合shiro">
+      <created>1714635324372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714635324372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +233,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Second-SpringBoot整合shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second-SpringBoot整合shiro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
