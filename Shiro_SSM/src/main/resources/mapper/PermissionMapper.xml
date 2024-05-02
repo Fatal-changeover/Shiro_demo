@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.abc.mapper.PermissionMapper">
+
+<!--    Set<Permission> findPermsByRoleIdIn(@Param("roleIdSet") Set<Integer> roleIdSet);-->
+    <select id="findPermsByRoleIdIn" resultType="com.abc.entity.Permission" >
+        select DISTINCT p.* from tb_permission p , role_perm rp where p.id = rp.pid and rp.rid in
+        <foreach collection="roleIdSet" item="rid" open="(" separator="," close=")">
+            #{rid}
+        </foreach>
+    </select>
+</mapper>

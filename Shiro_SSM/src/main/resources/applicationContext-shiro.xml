@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    构建realm-->
+    <bean id="realm" class="com.abc.realm.CustomRealm" />
+
+    <!--    构建securityManager-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="realm"/>
+    </bean>
+
+    <!--    构建ShiroFilter实例-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/login.html" />
+        <property name="filterChainDefinitionMap">
+            <map>
+                <entry key="/login.html" value="anon" />
+                <entry key="/user/**" value="anon" />
+                <entry key="/**" value="authc" />
+            </map>
+        </property>
+    </bean>
+</beans>

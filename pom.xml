@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Shiro_demo</module>
+        <module>Shiro_SSM</module>
     </modules>
 
     <properties>
