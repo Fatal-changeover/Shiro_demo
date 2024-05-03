@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a47ea0b-696a-41a3-9a40-dc508dded821" name="Changes" comment="Second-SpringBoot整合shiro" />
+    <list default="true" id="4a47ea0b-696a-41a3-9a40-dc508dded821" name="Changes" comment="Second-SpringBoot整合shiro">
+      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/session/DefaultRedisWebSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/session/RedisSessionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/Config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/Config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/mapper/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +72,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.abc.pojo" />
@@ -177,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714539013779</updated>
       <workItem from="1714539015183" duration="9148000" />
-      <workItem from="1714571680867" duration="9656000" />
+      <workItem from="1714571680867" duration="21557000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1714571698695</created>
@@ -214,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714635324372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Second-SpringBoot整合shiro">
+      <created>1714635596875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714635596875</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
