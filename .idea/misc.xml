@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Shiro_SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-pac4j-cas-boot/pom.xml" />
       </list>
     </option>
   </component>

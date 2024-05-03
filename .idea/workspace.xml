@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a47ea0b-696a-41a3-9a40-dc508dded821" name="Changes" comment="Second-SpringBoot整合shiro">
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/ShiroPac4jCasBootStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/config/Pac4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/pac4j/CasClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/java/com/mashibing/realm/CasRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-pac4j-cas-boot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/java/com/abc/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SSM/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/Config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shiro_SpringBoot/src/main/java/com/example/shiro_springboot/Config/ShiroConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +46,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/Dev_Soft/Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Dev_Soft\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -54,8 +68,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8.0_271",
-    "last_opened_file_path": "E:/Shiro/Shiro/Shiro_SpringBoot/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/Shiro/Shiro",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15234375",
     "project.structure.side.proportion": "0.23066843",
@@ -71,11 +85,11 @@
       <recent name="com.abc.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Shiro\Shiro" />
       <recent name="E:\Shiro\Shiro\Shiro_SpringBoot\src\main\resources" />
       <recent name="E:\Shiro\Shiro\Shiro_SpringBoot\src\main\java\com\example\shiro_springboot" />
       <recent name="E:\Shiro\Shiro\Shiro_SSM\src\main\webapp" />
       <recent name="E:\Shiro\Shiro\Shiro_SSM\src\main\resources\mapper" />
-      <recent name="E:\Shiro\Shiro\Shiro_SSM\src\main\java\com\abc\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.shiro_springboot.realm" />
@@ -147,6 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShiroPac4jCasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Shiro-pac4j-cas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shiropac4jcas.ShiroPac4jCasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShiroSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Shiro_SpringBoot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shiro_springboot.ShiroSpringBootApplication" />
@@ -182,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714539013779</updated>
       <workItem from="1714539015183" duration="9148000" />
-      <workItem from="1714571680867" duration="23424000" />
+      <workItem from="1714571680867" duration="30345000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1714571698695</created>
@@ -233,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714720543716</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Second-SpringBoot整合shiro">
+      <created>1714724538472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714724538472</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

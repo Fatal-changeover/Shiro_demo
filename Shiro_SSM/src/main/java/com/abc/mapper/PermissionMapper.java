@@ -10,6 +10,5 @@ import java.util.Set;
  * @description
  */
 public interface PermissionMapper {
-
     Set<Permission> findPermsByRoleIdIn(@Param("roleIdSet") Set<Integer> roleIdSet);
 }

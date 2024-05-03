@@ -1,0 +1,11 @@
+cas:
+  server:
+    url: http://localhost:8080/cas
+  project:
+    url: http://localhost:81
+  clientName: test
+
+
+
+server:
+  port: 81
